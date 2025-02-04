@@ -31,5 +31,5 @@ def read_sql_data():
 
 
     except Exception as ex :
-        raise CustomException(ex)
+        raise CustomException(ex,sys)
 
