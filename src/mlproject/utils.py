@@ -1,5 +1,6 @@
 import os 
 import sys 
+import pandas as pd
 from mlproject.exception import CustomException
 from mlproject.logger import logging
 from dotenv import load_dotenv
