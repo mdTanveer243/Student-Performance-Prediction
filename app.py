@@ -4,7 +4,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 
 from mlproject.logger import logging
-from mlproject.logger import logging 
 
 
 from mlproject.exception import CustomException
