@@ -86,6 +86,7 @@ class DataTransformation:
             # Splitting into input and target features
             input_features_train_df = train_df.drop(columns=[target_column_name], axis=1)
             target_features_train_df = train_df[target_column_name]
+            
             input_features_test_df = test_df.drop(columns=[target_column_name], axis=1)
             target_features_test_df = test_df[target_column_name]
 

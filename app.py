@@ -6,6 +6,7 @@ from src.mlproject.logger import logging
 from src.mlproject.exception import CustomException
 from src.mlproject.components.data_ingestion import DataIngestion
 from src.mlproject.components.data_transformation import DataTransformation
+from src.mlproject.components.model_trainer import ModelTrainer, ModelTrainingConfig
 
 
 if __name__ == "__main__":
@@ -23,6 +24,13 @@ if __name__ == "__main__":
         data_transformation = DataTransformation()
         train_arr, test_arr, preprocessor_path = data_transformation.initiate_data_transformation(train_path, test_path)
         logging.info("Data transformation completed successfully.")
+
+        # Model Trainer 
+        logging.info("Starting Model Trainer ")
+        model_trainer = ModelTrainer()
+        print(model_trainer.initiate_model_trainer(train_arr,test_arr))
+
+
 
     except Exception as e:
         logging.error(f"An error occurred: {str(e)}")
