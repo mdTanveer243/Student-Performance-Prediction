@@ -69,3 +69,8 @@ The dataset contains 1000 student records with the following features:
 
 Feel free to fork this repo, make improvements, and submit a PR!
 
+
+MLFLOW_TRACKING_URI=https://dagshub.com/mdTanveer243/Student-Performance-Prediction.mlflow
+MLFLOW_TRACKING_USERNAME=mdTanveer243
+MLFLOW_TRACKING_PASSWORD=ca8b3ebc024a90a2b4f01776c17ac243f473d482
+
