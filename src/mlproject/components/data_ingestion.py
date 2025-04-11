@@ -19,7 +19,8 @@ class DataIngestion:
 
     def initiate_data_ingestion(self):
         try:
-            df = pd.read_csv(r'C:\Users\tanve\OneDrive\Desktop\MLProject\notebook\data\raw.csv')
+            df = pd.read_csv(r'C:\Users\tanve\OneDrive\Desktop\Student Performance Prediction\notebook\data\raw.csv')
+
             logging.info("Reading completed from raw CSV file")
 
             required_columns = ["gender", "race_ethnicity", "parental_level_of_education", "lunch", "test_preparation_course", "math_score", "writing_score", "reading_score"]

@@ -2,11 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 
-from src.mlproject.logger import logging
-from src.mlproject.exception import CustomException
-from src.mlproject.components.data_ingestion import DataIngestion
-from src.mlproject.components.data_transformation import DataTransformation
-from src.mlproject.components.model_trainer import ModelTrainer, ModelTrainingConfig
+from mlproject.logger import logging
+from mlproject.exception import CustomException
+from mlproject.components.data_ingestion import DataIngestion
+from mlproject.components.data_transformation import DataTransformation
+from mlproject.components.model_trainer import ModelTrainer, ModelTrainingConfig
 
 
 if __name__ == "__main__":

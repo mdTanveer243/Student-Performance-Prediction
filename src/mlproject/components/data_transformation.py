@@ -7,10 +7,10 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-from src.mlproject.utils import saved_object
+from mlproject.utils import saved_object
 
-from src.mlproject.exception import CustomException
-from src.mlproject.logger import logging
+from mlproject.exception import CustomException
+from mlproject.logger import logging
 import os
 
 @dataclass
