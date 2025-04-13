@@ -9,3 +9,4 @@ matplotlib
 catboost
 xgboost
 mlflow 
+dill

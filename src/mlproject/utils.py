@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 import pymysql
 import pickle
 import numpy as np 
+import dill 
 
 # Load environment variables for database connection
 load_dotenv()
@@ -82,5 +83,12 @@ def saved_object(file_path, obj):
         
         logging.info(f"Object saved successfully at {file_path}")
 
+    except Exception as e:
+        raise CustomException(e, sys)
+    
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as file_obj:
+            return dill.load(file_obj)
     except Exception as e:
         raise CustomException(e, sys)

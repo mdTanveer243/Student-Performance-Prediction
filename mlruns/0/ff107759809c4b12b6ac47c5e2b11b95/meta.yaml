@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tanve/OneDrive/Desktop/Student%20Performance%20Prediction/mlruns/0/ff107759809c4b12b6ac47c5e2b11b95/artifacts
+end_time: 1744466150691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff107759809c4b12b6ac47c5e2b11b95
+run_name: efficient-cod-379
+run_uuid: ff107759809c4b12b6ac47c5e2b11b95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744466141731
+status: 3
+tags: []
+user_id: root
