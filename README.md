@@ -9,33 +9,33 @@ This is a Machine Learning Project designed to predict students' math scores bas
 ## Project Structure
 
 MLProject/                
-│── src/                    
-│   ├── mlproject/          
-│   │   ├── __init__.py     
-│   │   ├── logger.py       # Logging utility
-│   │   ├── exception.py    # Exception handling
-│   │   ├── components/     
-│   │   │   ├── __init__.py    
-│   │   │   ├── data_ingestion.py
-│   │   │   ├── data_monitoring.py
-│   │   │   ├── data_trainer.py
-│   │   │   ├── data_transformation.py
-│   │   ├── pipelines/         
-│   │   │   ├── __init__.py
-│   │   │   ├── training_pipeline.py
-│   │   │   ├── prediction_pipeline.py
-│── notebook/                    
-│   ├── data/          
-│   │   ├── EDA STUDENT PERFORMANCE.ipynb     
-│   │   ├── MODEL TRAINING.ipynb
-├── utils.py
-│── app.py                    
-│── Dockerfile                
-│── requirements.txt          
-│── README.md                 
-│── .gitignore                
-│── setup.py                  
-│── template.py
+- │── src/                    
+- │   ├── mlproject/          
+- │   │   ├── __init__.py     
+- │   │   ├── logger.py       # Logging utility
+- │   │   ├── exception.py    # Exception handling
+- │   │   ├── components/     
+- │   │   │   ├── __init__.py    
+- │   │   │   ├── data_ingestion.py
+- │   │   │   ├── data_monitoring.py
+- │   │   │   ├── data_trainer.py
+- │   │   │   ├── data_transformation.py
+- │   │   ├── pipelines/         
+- │   │   │   ├── __init__.py
+- │   │   │   ├── training_pipeline.py
+- │   │   │   ├── prediction_pipeline.py
+- │── notebook/                    
+- │   ├── data/          
+- │   │   ├── EDA STUDENT PERFORMANCE.ipynb     
+- │   │   ├── MODEL TRAINING.ipynb
+- ├── utils.py
+- │── app.py                    
+- │── Dockerfile                
+- │── requirements.txt          
+- │── README.md                 
+- │── .gitignore                
+- │── setup.py                  
+- │── template.py
 
 
 
