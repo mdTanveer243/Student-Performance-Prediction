@@ -1,4 +1,6 @@
 import sys
+import os 
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 from mlproject.logger import logging
 from mlproject.exception import CustomException
 from mlproject.components.data_ingestion import DataIngestion

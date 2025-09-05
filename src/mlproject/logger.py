@@ -1,5 +1,7 @@
-import logging
+import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
+import logging
 from datetime import datetime
 
 # Define log file path

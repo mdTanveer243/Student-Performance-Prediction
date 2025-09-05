@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/tanve/OneDrive/Desktop/Student%20Performance%20Prediction/mlruns/0/3b889228c63844f9902779558ac837ab/artifacts
+end_time: 1756980719812
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b889228c63844f9902779558ac837ab
+run_name: whimsical-duck-309
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756980712531
+status: 3
+tags: []
+user_id: tanve

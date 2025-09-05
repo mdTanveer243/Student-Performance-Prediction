@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 import os 
 import sys 
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 from mlproject.exception import CustomException
 from mlproject.logger import logging
 import pandas as pd 
@@ -19,7 +20,10 @@ class DataIngestion:
 
     def initiate_data_ingestion(self):
         try:
-            df = pd.read_csv(r'C:\Users\tanve\OneDrive\Desktop\Student Performance Prediction\notebook\data\raw.csv')
+            # Replace hardcoded path with relative path
+            file_path = os.path.join(os.getcwd(), "notebook", "data", "raw.csv")
+            df = pd.read_csv(file_path)
+
 
             logging.info("Reading completed from raw CSV file")
 

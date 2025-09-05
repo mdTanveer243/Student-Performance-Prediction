@@ -1,5 +1,8 @@
+import sys
+import os 
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 from mlproject.logger import logging  
-import sys 
+ 
 
 def error_message_detail(error, error_details: sys):
     _, _, exc_tb = error_details.exc_info()

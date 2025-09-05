@@ -1,4 +1,6 @@
 import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 from dataclasses import dataclass
 
 import numpy as np
@@ -11,7 +13,6 @@ from mlproject.utils import saved_object
 
 from mlproject.exception import CustomException
 from mlproject.logger import logging
-import os
 
 @dataclass
 class DataTransformationConfig:

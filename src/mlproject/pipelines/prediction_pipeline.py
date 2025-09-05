@@ -1,4 +1,6 @@
 import sys 
+import os 
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 import pandas as pd 
 from mlproject.exception import CustomException
 from mlproject.utils import load_object 

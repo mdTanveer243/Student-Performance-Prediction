@@ -1,5 +1,6 @@
 import os 
-import sys 
+import sys  
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
 import pandas as pd
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
